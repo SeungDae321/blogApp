@@ -1,0 +1,36 @@
+*{
+    font-size: 24px;
+    color: rgb(85, 59, 105);
+}
+
+
+nav{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(85, 59, 105);
+}
+.contentList{
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgba(186, 186, 186, 0.545);
+    padding-left: 3em;
+    transition: 0.24s;
+    font-size: 30px;
+}
+
+.contentList:hover{
+    background-color: rgba(186, 186, 186);
+}
+
+.btnCollection{
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.container-fluid{
+    padding-left: 10%;
+}

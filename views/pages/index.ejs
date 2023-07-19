@@ -1,0 +1,11 @@
+<%- include('../partial/head'); %>
+<div class="container">
+    <ol>
+        <% for(let content of contents){ %>
+            <a href="/blog/<%= content._id %>"><li class="contentList"><%= content.title %></li></a>
+        <% } %>
+    </ol>
+</div>
+
+
+<%- include('../partial/footer'); %>

@@ -1,0 +1,22 @@
+<%- include('../partial/head'); %>
+<div class="container">
+
+
+<h3>포스트 수정</h3>
+<form method="post" action="/blog/<%= content._id %>?_method=patch">
+
+    <div>
+        <hr>
+        <label for="title">제목</label>
+        <input type="text" id="title" name="title" value="<%= content.title %>">
+        <hr>
+    </div>
+    <div>
+        <label for="text">내용</label><br>
+        <textarea name="text" id="text" cols="60" rows="20" placeholder="내용 입력..."><%= content.text %></textarea>
+    </div>
+    <button>포스트 수정</button>
+</form>
+</div>
+
+<%- include('../partial/footer'); %>

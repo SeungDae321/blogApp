@@ -1,0 +1,22 @@
+<%- include('../partial/head'); %>
+
+<div class="container">
+
+    <h3>새 포스트</h3>
+<form action="/" method="post">
+    <div>
+        <hr>
+        <label for="title">포스트 제목</label>
+        <input type="text" id="title" name="title" placeholder="제목">
+        <hr>
+    </div>
+    <div>
+        <textarea name="text" id="text" cols="60" rows="20" placeholder="내용 입력..."></textarea>
+    </div>
+    <button>새 포스트 생성</button>
+</form>
+
+</div>
+
+
+<%- include('../partial/footer'); %>
