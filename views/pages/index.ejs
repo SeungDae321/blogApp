@@ -1,6 +1,7 @@
 <%- include('../partial/head'); %>
 <div class="container">
-    <ol>
+    <h1 class='title'>MY BLOG</h1>
+    <ol class="table">
         <% for(let content of contents){ %>
             <a href="/blog/<%= content._id %>"><li class="contentList"><%= content.title %></li></a>
         <% } %>

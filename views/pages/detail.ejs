@@ -6,12 +6,12 @@
 <hr>
 <h1><%= content.title %></h1>
 <hr>
-<div class="btnCollection">
+<div class="btnCollection btn-group btnCollection" role="group">
     <a href="/blog/<%= content._id %>/update?_method=PATCH">
-        <button>포스트 수정</button>
+        <button class="btn" style="background-color:rgba(85, 59, 105, 0.5)">포스트 수정</button>
     </a>
     <form  method="post" action="/blog/<%= content._id %>?_method=DELETE">
-        <button>포스트 삭제</button>
+        <button class="btn btn-danger">포스트 삭제</button>
     </form>
 </div>
 <pre><p><%= content.text %></p></pre>

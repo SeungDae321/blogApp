@@ -12,17 +12,20 @@ a{
     text-decoration: none;
     color: rgb(85, 59, 105);
 }
+
+
 .contentList{
-    /* display: flex;
-    flex-direction: column; */
-    background-color: rgba(186, 186, 186, 0.545);
-    padding-left: 3em;
-    transition: 0.24s;
+    padding: 2em;
+    margin-bottom: 0.5em;
     font-size: 30px;
+    background-color: rgba(214, 214, 214, 0.816);
+    transition: 1s;
 }
 
 .contentList:hover{
-    background-color: rgba(186, 186, 186);
+    transition: 0.3s;
+    background-color: rgba(85, 59, 105, 0.5);
+    padding-left: 1em;
 }
 
 .btnCollection{
@@ -33,4 +36,9 @@ a{
 
 .container-fluid{
     padding-left: 10%;
+}
+
+.title {
+    font-size: 150px;
+    background-color: rgb(85, 59, 105, 0.3);
 }
